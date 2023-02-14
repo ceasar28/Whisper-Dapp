@@ -9,6 +9,9 @@ contract WavePortal {
     // a state varaiable
     uint256 totalWaves;
 
+    // array to store senders arrays
+    address[] senders;
+
     // this constructor runs on the first instance of the smart contract
     constructor(){
         console.log("Yo yo, I am a contract and I am smart");
@@ -21,6 +24,7 @@ contract WavePortal {
      */ 
     function wave() public {
         totalWaves += 1;
+        senders.push(msg.sender);
         console.log("%s has waved!", msg.sender);
     }
 
@@ -28,5 +32,10 @@ contract WavePortal {
     function getTotalWaves() public view returns (uint256) {
         console.log ("We have %d total waves!", totalWaves);
         return totalWaves;
+    }
+
+    // function to get all senders
+    function getSenders()public view returns (address[] memory) {
+        return senders;
     }
 }
