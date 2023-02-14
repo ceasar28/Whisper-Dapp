@@ -19,6 +19,9 @@ const main = async () => {
   await wave2Txn.wait();
 
   await waveContract.getTotalWaves();
+
+  const all = await waveContract.getSenders();
+  console.log(all);
 };
 
 const runMain = async () => {
