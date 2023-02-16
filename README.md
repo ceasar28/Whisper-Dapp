@@ -1,7 +1,6 @@
 # Whisper
 
-A simple Dapp where people can anonymously drop a secret confession or message. the contract is deployed on 
-Quicknode.
+A simple Dapp where people can anonymously drop a secret confession or message. the contract is deployed on Quicknode.
 
 ## Live link - https://whisper-project.vercel.app/
 
