@@ -1,13 +1,10 @@
-# Sample Hardhat Project
+# Whisper
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+A simple Dapp where people can anonymously drop a secret confession or message. the contract is deployed on 
+Quicknode.
 
-Try running some of the following tasks:
+## Live link - https://whisper-project.vercel.app/
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+### Client side repo - https://github.com/ceasar28/whisper-Project.git
+
+### Contract repo - https://github.com/ceasar28/Whisper-Dapp.git
